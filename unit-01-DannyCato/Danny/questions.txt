@@ -1,0 +1,5 @@
+Danny Catorcini
+
+It didn't work the first few times so i added an empty file into the directory to make sure that git would pay attention to the add command.
+
+There are two questions.txt files. When using the add command, we never specify that we want a file deleted, so it exists in a limbo state

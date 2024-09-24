@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 1 dg 197121    0 Aug 28 13:13 ./
+drwxr-xr-x 1 dg 197121    0 Aug 28 13:04 ../
+drwxr-xr-x 1 dg 197121    0 Aug 28 13:13 .git/
+-rw-r--r-- 1 dg 197121 1292 Aug 28 13:04 README.md
+-rw-r--r-- 1 dg 197121    0 Aug 28 13:13 ls.txt
