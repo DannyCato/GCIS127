@@ -1,0 +1,15 @@
+# non-bipartite
+# 5 connected components
+A J L
+B D
+C E
+D B
+E C
+F M I G
+G M F I
+H K
+I M F G
+J L A
+K H
+L J A
+M F I G

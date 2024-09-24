@@ -1,0 +1,3 @@
+# k2 - bipartite graph
+# connected
+A B

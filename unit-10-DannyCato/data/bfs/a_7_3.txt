@@ -1,0 +1,9 @@
+# non-bipartite
+# 3 connected components
+A C D
+B E
+C D A
+D C A
+E B
+F G
+G F

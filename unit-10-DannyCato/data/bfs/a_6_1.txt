@@ -1,0 +1,8 @@
+# non-bipartite
+# connected
+A C E D B F
+B C E A D F
+C E A D B F
+D C E A B F
+E C A D B F
+F C E A D B

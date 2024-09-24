@@ -1,0 +1,46 @@
+Unit 09 Mini-Practicum (Unit 10 Day 1)
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in the practicum folder.
+
+Each mini-practicum counts as a homework assignment. 
+=======================================================
+
+1. All the files you write in this assignment should be placed in the provided 
+   package named practicum.
+
+2. You should be sick of hearing that an abstract data type may be implemented 
+   in many different ways. We have already implemented the queue abstract data 
+   type in two different ways: using a sequence of linked nodes and using an 
+   array. 
+
+   A priority queue is a special kind of queue that does not dequeue items in 
+   FIFO order. Instead, items may be enqueued in any order, but are always 
+   dequeued in priority order. For example, if you enqueued the values 
+   5, 3, 2, 4, 1 they would dequeue in the order 1, 2, 3, 4, 5. Such a queue 
+   would be difficult to implement using linked nodes or an array but is fairly 
+   easy to implement using a heap.
+
+   Create a new Java class in a file named "HeapPQ.java" that implements the 
+   provided Queue interface. Use the provided ArrayHeap class to implement a 
+   priority queue. Your priority queue need only work with integers. Do not 
+   modify any of the provided code.
+
+3. Create a new Java class in a file named "ListPQ.java" that implements the 
+   Queue interface and uses the LinkedList provided by the JCF to implement a 
+   priority queue. Note that LinkedList does not automatically order values 
+   based on priority, so it will be up to you to make sure that values are 
+   removed in priority order. You should try to implement your priority queue 
+   as efficiently as possible - basic operations should run in constant or 
+   linear time. Your priority queue need only work with integers. Do not modify 
+   any of the provided code.
+
+4. Write JUnit unit tests to thoroughly test your priority queue 
+   implementations. The tests should be very similar, with the exception of 
+   the kind of priority queue that you choose to instantiate. You should 
+   include at least one test that alternates between enqueuing and dequeuing 
+   multiple times.

@@ -1,0 +1,5 @@
+# K3,3 - Bipartite Graph
+# connected
+A D E F
+B D E F
+C D E F

@@ -1,0 +1,4 @@
+# K3, not bipartite
+# connected
+A B C
+B C

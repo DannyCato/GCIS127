@@ -1,0 +1,24 @@
+# non-bipartite
+# 3 connected components
+A T D F I E O B H P L
+B T D F I A E O H P L
+C V K U J
+D T F I A E O B H P L
+E T D F I A O B H P L
+F T D I A E O B H P L
+G S M N Q R
+H T D F I A E O B P L
+I T D F A E O B H P L
+J V K U C
+K V U J C
+L T D F I A E O B H P
+M S N G Q R
+N S M G Q R
+O T D F I A E B H P L
+P T D F I A E O B H L
+Q S M N G R
+R S M N G Q
+S M N G Q R
+T D F I A E O B H P L
+U V K J C
+V K U J C

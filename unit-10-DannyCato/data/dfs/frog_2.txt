@@ -1,0 +1,4 @@
+3 3
+H P H
+P P P
+H P H

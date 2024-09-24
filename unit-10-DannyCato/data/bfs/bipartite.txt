@@ -1,0 +1,6 @@
+# bipartite graph example
+# 3 connected components
+A E F I
+B G
+C H
+D H

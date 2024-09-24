@@ -1,0 +1,5 @@
+4 6
+H H H H P H
+H P P P P H
+H H H H P H
+P H P H P H

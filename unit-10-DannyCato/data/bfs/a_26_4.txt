@@ -1,0 +1,28 @@
+# non-bipartite
+# 4 connected components
+A C O G L T F W
+B Q R X J S D N Y Z I
+C O G L T A F W
+D Q B R X J S N Y Z I
+E P V U K
+F C O G L T A W
+G C O L T A F W
+H M
+I Q B R X J S D N Y Z
+J Q B R X S D N Y Z I
+K P V E U
+L C O G T A F W
+M H
+N Q B R X J S D Y Z I
+O C G L T A F W
+P V E U K
+Q B R X J S D N Y Z I
+R Q B X J S D N Y Z I
+S Q B R X J D N Y Z I
+T C O G L A F W
+U P V E K
+V P E U K
+W C O G L T A F
+X Q B R J S D N Y Z I
+Y Q B R X J S D N Z I
+Z Q B R X J S D N Y I
