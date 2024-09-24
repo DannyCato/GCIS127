@@ -1,0 +1,48 @@
+Unit 11 Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create a new package under unit12 named 'practicum' and place all
+of your required files in that package.
+
+Each mini-practicum counts as a homework assignment. 
+==============================================================================
+
+1. Create a new Java class named "Timer.java" in the practicum package. 
+   Define a static method that declares parameters for a String name, a 
+   List<Integer>, and a numberOfValues.  
+    a. Use the static System.nanoTime() method to get the current system time. 
+    b. Use a loop to add the specified numberOfValues to the list. 
+    c. Use the static System.nanoTime() method to compute the elapsed time 
+       in nanoseconds. 
+    d. Print a message indicating how long it took to fill the list in the 
+       format "Filled <name> with <numberOfValues> in <elapsed time> 
+       nanoseconds." Hint: you can use String.format("%,d", number) to include 
+       commas in large numbers for readability.
+    e. Define a main method with the appropriate signature and use it to 
+       create a thread that times an java.util.ArrayList and a second thread 
+       that times a java.util.Vector with the same number of values. The 
+       threads must run concurrently. Depending on the speed of your processor, 
+       you may need to use a somewhat large number of values, e.g. 100,000,000. 
+       What do you see?
+    f. Read the online documentation for both classes and use your class 
+       JavaDoc comment to explain why you think there is a difference in the 
+       time it takes to fill the lists with the same number of values.
+
+2. Create a new Java class named "EvensAndOdds.java" and define a main 
+   method with the appropriate signature. 
+    a. Start a thread that prints all of the odd numbers from 1 to 99.
+    b. Start a second thread that prints all of the even numbers from 2 to 100.
+    c. Using only wait(), and notify()/notifyAll() make sure that the threads 
+       are guaranteed to print all of the numbers from 1 to 100 in order.
+    d. The program should not hang after all of the numbers have printed.
+    e. You may create additional classes to solve this problem, but you are 
+       not required to do so.
+    f. Hints: 
+        i) The threads will need to share a lock that they can use to wait 
+           and notify each other.
+        ii) The main method must guarantee that the odds thread starts 
+            and prints its first number before starting the evens thread.
