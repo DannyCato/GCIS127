@@ -1,0 +1,64 @@
+Mini-Practicum
+
+For the remainder of this semester, you will begin each new unit by solving a
+set of practice problems based on the material from the previous unit. You will
+have 30 minutes to complete your answers and push your solution to GitHub. 
+Raise your hand if you need help.
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. The numbered problems
+below are weighted equally. 
+
+
+1. Create a new Python module named "practice.py" and implement a function
+   named "absolute_difference" which takes two integer parameters, a and b. Your
+   function needs to calculate and return the absolute difference between a and
+   b, i.e. the absolute value of the difference. For example, the absolute
+   difference between 2 and 5 is 3.
+
+   Your solution cannot use any math module functions.
+
+2. Create a new Python module named "practice_test.py" and implement at least 3
+   tests for the absolute_difference function.
+
+1. Implement a function in the practice module named "pi_tester" which takes no
+   parameters. Your function needs to meet the following requirements:
+
+    a. Your function should prompt the user to enter the decimal digits of pi
+       in order, one at a time, up to the first 100 decimal places.
+    b. As each digit is entered, compare it against the solution. If it is
+       correct, ask for the next digit. If it is not, print an error message
+       with the correct digit.
+    c. Repeat until an incorrect digit is entered or 100 correct digits are
+       entered.
+    d. The function should return the number of correct decimal digits that
+       were entered.
+    
+    Define a main function at the bottom of the file and use it to call your
+    function and print the score that is returned. You DO NOT need to unit-test
+    this function.
+
+    Note: The value of pi to 100 decimal places is provided for your reference
+    in the pi.txt file in your repository.
+
+    Example Output:
+
+    Enter the next digit: 3
+    Enter the next digit: 1
+    Enter the next digit: 4
+    Enter the next digit: 1
+    Enter the next digit: 5
+    Enter the next digit: 9
+    Enter the next digit: 2
+    Enter the next digit: 6
+    Enter the next digit: 5
+    Enter the next digit: 3
+    Enter the next digit: 4
+    Score: 11
+
+    Note that the last line is printed in main.
+
