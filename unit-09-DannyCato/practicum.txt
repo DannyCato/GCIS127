@@ -1,0 +1,32 @@
+Unit 08 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in the practicum folder.
+
+Each mini-practicum counts as a homework assignment. 
+
+================================================================================
+
+You should recall the tuple type from Python, which is essentially an immutable 
+array. A tuple is created with a sequence of values. Each value may be retrieved
+using its index, but tuples do not support assignment.
+
+Before you begin, open the TupleUML.png file provided in the unit09.practicum 
+package and review the UML diagram. Use this diagram as a guide when you 
+implement a tuple data structure.
+
+1. Using the UML diagram as a guide, Create a generic interface named Tuple<E>.
+
+2. Using the UML diagram as a guide, create an array-based implementation of the
+   Tuple ADT names ArrayTuple<E>.
+   - The ArrayIterator that we implemented in class has been provided to you.
+   - The toString() method should use Arrays.toString() to return the elements 
+     in the tuple as a nicely formatted string. For two bonus points, replace
+     the "[" with "(" and the "]" with ")".
+
+3. Create a new JUnit test in the src/main/test/unit09/practicum package and 
+   use it to test the ArrayTuple.
