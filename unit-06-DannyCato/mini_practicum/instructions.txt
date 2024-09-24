@@ -1,0 +1,77 @@
+Mini-Practicum
+
+For the remainder of this semester, you will begin each new unit by solving a
+set of practice problems based on the material from the previous unit. You will
+have 30 minutes to complete your answers and push your solution to GitHub. 
+Raise your hand if you need help.
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. The numbered problems
+below are weighted equally. 
+
+ 
+1. Create a new Python module named "practice" and define a new function named 
+   "letters" that returns a data structure containing the unique lowercase 
+   letters of the alphabet. The data structure should provide constant time
+   membership checking (i.e. "a" in data_structure should run in O(c)) and
+   minimize use of memory as much as possible.
+
+
+2. Define a new function named "make_letter_frequency" that declares a parameter
+   for a filename. Create a dictionary and use it to count the number of times 
+   that each letter of the alphabet is used in the text file and return it. 
+
+   Make sure to convert all letters to lowercase and do not include any 
+   non-alphabetic characters in your dictionary.
+
+   Hint: You may find it useful to use the letters function to solve this 
+   problem.
+
+
+3. Define a function named "print_letter_frequency" that declares a parameter 
+   for a dictionary containing letter:count pairs (e.g. like the one created
+   by the make_letter_frequency function). Print each letter and its frequency
+   on a separate line. The function should also print the most popular letter 
+   with its frequency at the end.
+
+
+4. Two text files, alice.txt and rit_mission.txt, have been provided for you to
+   test your functions. Define a main function that calls make_letter_frequency
+   with each of the text files and then uses print_letter_frequency to display
+   the results to standard output.
+
+   Using alice.txt as an example, your output should look something like:
+
+   p : 1968
+   r : 6612
+   o : 9478
+   j : 235
+   e : 15398
+   c : 3004
+   t : 12202
+   g : 2944
+   u : 3978
+   n : 8053
+   b : 1746
+   s : 7270
+   a : 9805
+   l : 5211
+   i : 8636
+   d : 5470
+   v : 963
+   w : 2952
+   y : 2584
+   h : 7890
+   k : 1290
+   f : 2382
+   m : 2467
+   q : 220
+   x : 176
+   z : 80
+   The most popular letter: e : 15398
+
+

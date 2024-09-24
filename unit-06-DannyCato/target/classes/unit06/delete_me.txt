@@ -1,0 +1,5 @@
+Git does not store empty directories. This file has been added to the project
+to ensure that the src/main/java/unit01 folder exists in the repository.
+
+You may remove this file once you have added at least one other file to this
+directory.
