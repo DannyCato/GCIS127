@@ -1,0 +1,26 @@
+North Entrance-EXIT,Dining Room-ROOM,Wine Cellar-ROOM
+Dining Room-ROOM,North Entrance-EXIT,Kitchen-ROOM
+Kitchen-ROOM,Dining Room-ROOM,Nursery-ROOM,North Corridor-HALLWAY
+Nursery-ROOM,Kitchen-ROOM,Master Bath-ROOM
+Wine Cellar-ROOM,North Entrance-EXIT,Orangery-ROOM
+Orangery-ROOM,Wine Cellar-ROOM,North Corridor-HALLWAY,Music-ROOM
+Music-ROOM,Orangery-ROOM,Guest Bedroom-ROOM,East Corridor-HALLWAY
+North Corridor-HALLWAY,Kitchen-ROOM,Orangery-ROOM,West Corridor-HALLWAY,Library-ROOM,Observatory-ROOM,East Corridor-HALLWAY
+Master Bath-ROOM,Nursery-ROOM,Master Bedroom-ROOM
+Master Bedroom-ROOM,West Corridor-HALLWAY,Billiards-ROOM
+Billiards-ROOM,Master Bedroom-ROOM,South Corridor-HALLWAY
+South Corridor-HALLWAY,Billiards-ROOM,West Corridor-HALLWAY,Powder Room-ROOM,South Entrance-EXIT
+West Corridor-HALLWAY,Master Bedroom-ROOM,South Corridor-HALLWAY,Library-ROOM,Conservatory-ROOM,Sewing Room-ROOM
+Library-ROOM,West Corridor-HALLWAY,North Corridor-HALLWAY,Observatory-ROOM
+Observatory-ROOM,Library-ROOM,North Corridor-HALLWAY,Exercise Room-ROOM
+Conservatory-ROOM,West Corridor-HALLWAY,Sewing Room-ROOM,Exercise Room-ROOM
+Sewing Room-ROOM,West Corridor-HALLWAY,Conservatory-ROOM,Powder Room-ROOM
+Powder Room-ROOM,Sewing Room-ROOM,South Corridor-HALLWAY,Den-ROOM
+Exercise Room-ROOM,Observatory-ROOM,Conservatory-ROOM,East Corridor-HALLWAY
+Den-ROOM,Powder Room-ROOM,East Corridor-HALLWAY
+East Corridor-HALLWAY,North Corridor-HALLWAY,Music-ROOM,Guest Bedroom-ROOM,Sauna-ROOM,South Entrance-EXIT,Exercise Room-ROOM,Den-ROOM
+Guest Bedroom-ROOM,Music-ROOM,East Corridor-HALLWAY,Guest Bath-ROOM
+Guest Bath-ROOM,Guest Bedroom-ROOM,Sauna-ROOM
+Sauna-ROOM,East Corridor-HALLWAY,Dungeon-ROOM,Guest Bath-ROOM
+Dungeon-ROOM,Sauna-ROOM,South Entrance-EXIT
+South Entrance-EXIT,South Corridor-HALLWAY,East Corridor-HALLWAY,Dungeon-ROOM

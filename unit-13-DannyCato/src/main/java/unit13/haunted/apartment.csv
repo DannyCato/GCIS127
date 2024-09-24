@@ -1,0 +1,7 @@
+Foyer-EXIT,Livingroom-ROOM,Hallway-HALLWAY,Dining-ROOM
+Livingroom-ROOM,Foyer-EXIT,Bedroom-ROOM,Hallway-HALLWAY
+Bedroom-ROOM,Livingroom-ROOM,Hallway-HALLWAY,Bathroom-ROOM
+Bathroom-ROOM,Bedroom-ROOM,Kitchen-ROOM,Hallway-HALLWAY
+Kitchen-ROOM,Bathroom-ROOM,Hallway-HALLWAY,Dining-ROOM
+Dining-ROOM,Foyer-EXIT,Kitchen-ROOM,Hallway-HALLWAY
+Hallway-HALLWAY,Foyer-EXIT,Livingroom-ROOM,Bedroom-ROOM,Bathroom-ROOM,Kitchen-ROOM,Dining-ROOM

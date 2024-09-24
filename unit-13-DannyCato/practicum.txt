@@ -1,0 +1,36 @@
+Unit 12 Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. 
+==============================================================================
+
+1. Examine the starter code, "Duplexer.java" and "SumClient.java", provided 
+in the practicum package. Do not modify the starter code. You will write a 
+server-side program that interacts with the SumClient. 
+    (a) The server keeps track of the sum of the numbers received from the client
+    and responds with the current sum.
+    (b) When the server receives a zero, it should send the current sum and 
+    close the connection.
+     
+2. Create a new Java class named "SumServer.java" that handles a single client. 
+    (a) The main method should not include all of the code. 
+    (b) While the details of implementation may vary, you should declare necessary 
+    fields and initialize them properly in a constructor.
+    (b) Add a method, named handle or something else, which handles all communication 
+    with the connected client. 
+    (c) For debugging purposes, print the received or sent number to the standard output 
+    whenever the server receives or sends it.
+    (c) Run the server and client to verify that they work correctly. You may assume 
+    that the user always provides a valid input, i.e., an integer number.
+   
+3. Update the server to support multi-threading. 
+    (a) The server should be capable of handling multiple concurrent clients.
+    (a) The server maintains the total sum of the numbers received from ALL 
+    clients and responds to the respective client with the current total.
+    (c) Make sure that your server is thread safe.  
+    (d) Test the updated server with at least two clients. A sequence diagram 
+    is provided in practicum.png. 
