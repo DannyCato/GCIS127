@@ -1,0 +1,65 @@
+Mini-Practicum
+
+For the remainder of this semester, you will begin each new unit by solving a
+set of practice problems based on the material from the previous unit. You will
+have 30 minutes to complete your answers and push your solution to GitHub. 
+Raise your hand if you need help.
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. The numbered problems
+below are weighted equally. 
+
+
+1. Create a new Python module named "practice" and define a function called
+   "find_rabbit" that declares a parameter for a filename. Implement the 
+   function so that it finds the number of times that the word "rabbit" appears
+   in the file. Your function should match any case, e.g. "rabbit," "Rabbit,"
+   and "RABBIT" would all be considered matches.
+
+   Define a main function and use it to test the find_rabbit function with the
+   provided "data/alice.txt" file, which contains 52 instances of the word.
+
+   Hint: you will need to use a regular expression to find all 52 instances of
+   the word.
+
+   Hint: if you are testing from the mini_practicum folder in your repository, 
+   your relative path to the alice.txt file will need to include a "..".
+
+
+2. In the practice module, define a function named "power" that declares 
+   parameters for a base and an exponent. You should not add additional 
+   parameters.
+      
+   Recall from the lecture that a naive implementation of a mathematical
+   formula translates the formula as directly as possible into code, making
+   changes only to fit the language syntax.  Your function must use recursion
+   to implement the following divide-and-conquer power calculation:
+
+      P(B,E) = Undefined where E < 0
+      P(B,E) = 1 where E = 0
+      P(B,E) = B where E = 1
+      P(B,E) = B * P(B,E//2) * P(B,E//2) where E is odd
+      P(B,E) = P(B,E//2) * P(B,E//2) where E is even
+
+      where B = base and E = exponent and both are always integers
+
+   Example Usage
+   result = power(4,7)
+   print(result)
+
+   Output: 16384
+
+   Manually test the power function by calling it from main with the above
+   values for base and exponent. Print the result to make sure that it matches
+   the expected value.
+
+
+3. Create a unit test for the practice module and use it to test the "power"
+   function. You should write at least one test for each of the different
+   parts of the formula above.
+
+   You DO NOT need to test the find_rabbit function.
