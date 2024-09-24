@@ -1,0 +1,45 @@
+Unit 01 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+You should create all of your required files in this folder along with these
+instructions.
+
+Each mini-practicum counts as a homework assignment. Each of the numbered 
+problems below is weighted equally. 
+
+
+1. Create a new Python module in a file named "mini_practicum.py" and define a 
+function named "convert_height." The function should prompt the user to enter 
+their height in inches, and then print the height back to the user in feet and
+inches.
+
+  a. Your function needs only handle whole numbers of inches, i.e. the user 
+     will not enter fractional inches as floating-point numbers.
+
+  b. You should produce output that matches the example below as closely as 
+     possible, including the use of ' to indicate feet, and " to indicate 
+     inches in the output.
+
+  c. Example output:
+
+     Enter your height in inches: 71
+     You are 5' 11" tall
+
+
+2. In the mini_practicum module, define a new function named "before" that 
+   declares a parameter for a letter of the alphabet. The function should print 
+   the letter and the 3 preceding letters in the alphabet. You may assume that
+   the letter is "d" or later in the alphabet. 
+
+   Example output if the function is called with "X":
+   X
+   W
+   V
+   U
+
+
+3. Define a main function and use it to test both of your other functions.
