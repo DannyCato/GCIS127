@@ -1,0 +1,8 @@
+What happens when you change the amount of time that the turnip dropper waits between drops? What if you reduce it to 0? Why do you think that is?
+    The closer to 10 i put the timing, the more even the distribution was between Threads, but if i put it to 1 or 0 then it would go back
+    At 0, it likes to mess up the printing to the console, but it still seems to work correctly
+    I have no idea. Maybe the thread that might be fastest is being outrun by the turnipDropper thread and is allowing other threads to enter
+    
+What happens if you change the number of turnips that are dropped at a time to a higher number, e.g. 5 or 10? Why do you think that is?
+    When i change the number to higher number, the distribution becomes more uneven. The goat that would normally have the most has significantly more if not all the turnips
+    The faster thread is being given a larger share of the pie and there are less iterations overall so it loses some of its distributing abilities

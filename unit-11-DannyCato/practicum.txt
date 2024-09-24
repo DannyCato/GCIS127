@@ -1,0 +1,33 @@
+Unit 10 Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in the practicum folder.
+
+Each mini-practicum counts as a homework assignment. 
+
+================================================================================
+
+A mother vertex is a vertex in a graph from which all other vertices can be 
+reached by at least one path. There may be more than one mother vertex in a 
+graph! The mothers.png file contains two graphs along with their corresponding 
+mother vertices. You will need to use the AdjacencyGraph class in the 
+"unit11.graphs" package.
+
+Create a new Java class in a file called "Mothers.java" in the practicum package
+and define a static method named "findMothers" that declares parameters for an 
+unweighted graph of strings and a complete list of the values in the graph. It 
+should return a List of values. Hint: you can use Arrays.asList(...) to create 
+an unmodifiable list from any number of parameters, e.g. Arrays.asList("a", "b",
+"c") will create a list containing the values "a", "b", and "c".
+
+1. Implement an algorithm for finding mother vertices in the graph using the 
+   list of values passed in as a parameter.
+
+2. Return a list of the values of all mother vertices in the graph.
+
+3. Define a main method with the appropriate signature and test your algorithm 
+   with at least the two graphs pictured in the image file graphs.png.
