@@ -1,0 +1,60 @@
+Mini-Practicum
+
+For the remainder of this semester, you will begin each new unit by solving a
+set of practice problems based on the material from the previous unit. You will
+have 30 minutes to complete your answers and push your solution to GitHub. 
+Raise your hand if you need help.
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gage your preparedness for the exams.
+
+Each mini-practicum counts as a homework assignment. The numbered problems
+below are weighted equally. 
+
+ 
+1. Create a new Python module named "practice" and define a new function named 
+   "gcis_sort" that takes in a list as its only parameter. Then use the 
+   following algorithm to sort the list in-place.
+
+   for each index_a in a list:
+       for every index_b before (list.length - 1 - index_a):
+           if value at index is greater than value at the next index:
+               swap value at index with the value at the next index
+       if no value was swapped stop sorting (done)
+   return the sorted list
+
+   Define a main function and use it to test the new sorting function with 
+   various lists to ensure it works (i.e. print each list before and after you
+   have sorted it). Note: If you wish to solve this question recursively, you 
+   may add additional parameters.
+
+
+2. Define a function named "in_place_reverse" that declares a parameter a_list.
+   Use the pop and insert functions on the list to reverse the list without 
+   using additional memory. 
+   
+   What is the time complexity of the new function? Aswer in a docstring for
+   this function.
+   
+   Test the function in a main function using a list with at least 5 elements.
+   Be sure to print the list before and after it is reversed.
+
+
+3. Define a function named "make_multiplication_table" that returns a 10x10 
+   multiplication table as a 2D list using only one line of statement. The table
+   should only include multiples for the natural numbers from 1 to 10 (i.e. not 
+   0). Test the function from main and print each row on a separate line. your
+   output should look like the example below:
+
+   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+   [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+   [4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+   [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+   [6, 12, 18, 24, 30, 36, 42, 48, 54, 60]
+   [7, 14, 21, 28, 35, 42, 49, 56, 63, 70]
+   [8, 16, 24, 32, 40, 48, 56, 64, 72, 80]
+   [9, 18, 27, 36, 45, 54, 63, 72, 81, 90]
+   [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
