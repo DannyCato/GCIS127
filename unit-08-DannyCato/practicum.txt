@@ -1,0 +1,60 @@
+Unit 07 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in this folder along with these
+instructions.
+
+Each mini-practicum counts as a homework assignment. 
+======================
+
+0. Create a new package under unit08 named "practicum" and implement your 
+   solution to the remaining problems in that package.
+
+1. A fighter in the Spectacular Smoosh Bruhs (SSB) fighting game has the 
+   following behavior:
+   a. You can get the amount of damage of their next attack (a positive 
+      integer). All fighters attack differently.
+   b. You can deal an amount of damage to them (a positive integer). All 
+      fighters take damage differently.
+   c. A fighter is unconscious if health drops to 0.
+
+   Create a new type to represent fighters.
+
+
+
+2. Create a class that allows two SSB fighters to do battle in an arena.
+   a. Battle continues as long as both fighters are conscious.
+   b. During each round of battle, both fighters damage each other.
+   c. At the end of battle, the winner is announced (using its toString()), 
+      e.g. "Manio wins!" If both fighters are unconscious, it is a draw.
+
+
+3. Use the table below to implement at least two fighters, each in its own 
+   class. Then add a main method to your arena class and have the fighters do 
+   battle. Each time the fighter attacks or is damaged, it should print a 
+   message.
+
+Name         Health   Attack                     Taking Damage
+
+Manio (or    100     Jump Attack hits for       25% chance to dodge all 
+Louie G.)            25-50 damage.              damage.
+
+SamosA.      200     75% chance to attack       No modification.
+                     with her arm cannon
+                     for 40 damage. 25% 
+                     chance to attack with
+                     missiles for 75 
+                     damage.
+
+Lonk         150     Sword hits for 45          50% chance to block; damage
+                                                reduced by half (rounded 
+                                                down).
+
+Mule Monkey  200     Bash has a 75% chance      If health is below 50, rage
+                     to hit for 75, and a       causes damage taken to be 
+                     25% chance to miss (0      reduced by 10.
+                     damage)        

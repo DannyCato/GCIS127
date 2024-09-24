@@ -1,0 +1,41 @@
+package unit08;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+public class ArrayIteratorTest {
+    @Test
+    public void createEmpty() {
+        // setup
+        String[] elements = { null, null, null, null, null };
+        int size = 0;
+
+        // invoke
+        ArrayIterator<String> iter = new ArrayIterator<>(elements, size);
+
+        // analyze
+        assertFalse(iter.hasNext());
+    }
+
+    @Test
+    public void createNotEmpty() {
+        // setup
+        String[] elements = { "a", "b", "c", null, null };
+        int size = 3;
+
+        // invoke
+        ArrayIterator<String> iter = new ArrayIterator<>(elements, size);
+
+        // analyze
+        assertTrue(iter.hasNext());
+        assertEquals(elements[0], iter.next());
+        assertTrue(iter.hasNext());
+        assertEquals(elements[1], iter.next());
+        assertTrue(iter.hasNext());
+        assertEquals(elements[2], iter.next());
+        assertFalse(iter.hasNext());
+    }
+}
